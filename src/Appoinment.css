@@ -1,0 +1,173 @@
+.maindiv{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.scheduleslist{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.appointments-table {
+    width: 100%;
+    text-align: center;
+    /* border-collapse: collapse; */
+  }
+  
+  .appointments-table th, .appointments-table td {
+    /* border: 1px solid #ddd; */
+    border: none;;
+    padding: 8px;
+    /* text-align: left; */
+  }
+  
+  .appointments-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .appointments-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .appointments-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .appointments-table th:nth-child(n+4),
+  .appointments-table td:nth-child(n+4) {
+    white-space: nowrap;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-detail {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .toggle-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .allinonepdf{
+    display: flex;
+    margin-left: 5%;
+    gap:1rem;
+  }
+
+  .joinbtn{
+    border:none;
+    margin-left: 15px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: rgb(37, 173, 37);
+    color: white;
+  }
+
+  .cancelbtn{
+
+    border:none;
+    margin-left: 15px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: rgb(244, 15, 15);
+    color: white;
+
+  }
+
+
+
+  .joinbtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  
+  .cancelbtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .btnflex{
+    display: flex;
+    margin-left: 55px;
+    gap:1rem;
+  }
+
+  .contentcreatie{
+    margin-left: 55px;
+  }
+
+
+  .userstylebtn{
+    background-color: #ece6f9;
+    padding: 10px;
+    color: gray;
+    border: none;
+    border-radius: 10px;
+    gap:1rem;
+  }
+
+  .userstylebtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  .allthebest{
+    /* display: flex; */
+    gap:3rem;
+  }
+
+  .pdfgen{
+    border:none;
+    margin-top: 15px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: rgb(0, 186, 37);
+    color: white;
+  }
+
+
+  .referdoc{
+    padding:6px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .pdfgen:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+    
+
+  @media screen and (max-width: 600px) {
+    .appointments-table td:nth-child(4) {
+      display: block;
+    }
+  }
